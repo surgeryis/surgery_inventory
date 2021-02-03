@@ -26,7 +26,7 @@ SECRET_KEY = 'b^zh84j7#cnt#a8o^*an@u*7g75udwut)5-1waf5^y&dr*tgel'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['198.211.99.20', 'localhost', '127.0.0.1', '0.0.0.0']
+ALLOWED_HOSTS = ['198.211.99.20', 'localhost', '127.0.0.1', '0.0.0.0', 'surgery-inventory.herokuapp.com' ]
 
 
 # Application definition
