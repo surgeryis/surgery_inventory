@@ -1,8 +1,8 @@
 from django.contrib import admin
 from .models import Computer
-
+from import_export.admin import ImportExportModelAdmin
 # Register your models here.
-admin.site.register(Computer)
+@admin.register(Computer)
 
-class ViewAdmin(admin.ModelAdmin):
+class ViewAdmin(ImportExportModelAdmin):
     pass

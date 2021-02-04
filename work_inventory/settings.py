@@ -40,7 +40,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
 
     'corsheaders',
-    'computer_inventory'
+    'computer_inventory',
+    'import_export',
 ]
 
 MIDDLEWARE = [
