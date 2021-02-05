@@ -25,3 +25,4 @@ def add_computer(request):
     else:
         form = ComputersForms()
         return render(request, 'add_new.html', {'form' : form})
+

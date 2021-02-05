@@ -59,6 +59,7 @@ CORS_ORIGIN_ALLOW_ALL = True
 ROOT_URLCONF = 'work_inventory.urls'
 
 TEMPLATES = [
+
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
         'DIRS': [],

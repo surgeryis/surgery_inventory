@@ -117,8 +117,8 @@ class Computer(models.Model):
     )
 
     operating_system = models.CharField(max_length=20, choices=WINDOWS_TYPE, default=WINDOWS_TEN)
-    computer_name = models.CharField(max_length=10, blank=False, null=True)
-    serial_number = models.CharField(max_length=10, blank=False, null=True)
+    computer_name = models.CharField(max_length=20, blank=False, null=True)
+    serial_number = models.CharField(max_length=20, blank=False, null=True)
     user_name = models.CharField(max_length=30, blank=False, null=True)
     person_full_name = models.CharField(max_length=40, blank=False, null=True)
     time_stamp = models.DateTimeField(auto_now_add=True, auto_now=False)
